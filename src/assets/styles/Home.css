@@ -1,0 +1,53 @@
+/* @media  only screen and (min-width: 320) and (max-width: 768 - 1px) {
+@content;
+}
+
+@media  only screen and (min-width: 768) and (max-width: #{1024 - 1px}) {
+@content;
+} */
+
+.img {
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.txt {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: plaster;
+  color: white;
+  font-size: 30px;
+}
+
+.img-1 {
+  background-color: yellow;
+  background-image: url("../img/jpg/design.jpg");
+}
+@media  only screen and (min-width: 768px) {
+  .img-1 {
+    height: 100vh;
+  }
+}
+
+.img-2 {
+  background-color: indigo;
+  background-image: url("../img/jpg/indie.jpg");
+
+}
+.img-3 {
+  background-color: cyan;
+  background-image: url("../img/jpg/education.jpg");
+
+}
+.img-4 {
+  background-color: red;
+  background-image: url("../img/jpg/flower.jpg");
+
+}
+.img-5 {
+  background-color: blue;
+  background-image: url("../img/jpg/about.jpg");
+
+}

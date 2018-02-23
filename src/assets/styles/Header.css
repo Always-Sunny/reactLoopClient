@@ -1,0 +1,72 @@
+/* git
+ln
+twit
+fb
+etsy
+medium
+sc
+skype
+gmail */
+
+.main-nav {
+  height: 72px;
+  box-shadow: 0px 0px 12px 0 rgba(0, 0, 0, 0.07);
+}
+
+.nav-ul {
+  display: inline-block;
+  margin-top: 9px;
+}
+.nav-sml {
+  margin: 0px 5px;
+  height: 20px;
+  width: 20px;
+  float: left;
+}
+.img-link {
+  background-repeat: no-repeat;
+  /* height: 100%;
+  width: 100%; */
+}
+
+.github-link {
+  background-image: url("../img/svg/github.svg");
+}
+.ln-link {
+  background-image: url("../img/svg/ln.svg");
+}
+.twitter-link {
+  background-image: url("../img/svg/twitter.svg");
+}
+.fb-link {
+  background-image: url("../img/svg/fb.svg");
+}
+.etsy-link {
+  background-image: url("../img/svg/etsy.svg");
+}
+.medium-link {
+  background-image: url("../img/svg/medium.svg");
+}
+.sc-link {
+  background-image: url("../img/svg/sc.svg");
+}
+.spotify-link {
+  background-image: url("../img/svg/spotify.svg");
+}
+.skype-link {
+  background-image: url("../img/svg/skype.svg");
+}
+.gmail-link {
+  background-image: url("../img/svg/gmail.svg");
+}
+
+.footer-container {
+  height: 100px;
+}
+
+.footer-text {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-family: avenir-light;
+}
