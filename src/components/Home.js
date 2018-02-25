@@ -7,7 +7,12 @@ class Home extends Component {
     return (
       <div className="container-fluid">
         <div className="row no-gutters">
-          <div className="col-12 mobile-intro"><span className="">OHRYAN</span></div>
+
+          <div className="col-12 mobile-intro align-items-center justify-content-center">
+            <div class="mobile-intro-text">OHRYAN</div>
+
+          </div>
+
           <div className="col-12 col-md-4">
             <Link to="/design"><div className="img img-1"><span className="txt">Design</span></div></Link>
           </div>

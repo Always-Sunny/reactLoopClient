@@ -21,7 +21,6 @@ class Header extends Component {
             <li className="nav-item nav-sml"><a href="https://twitter.com/OhRyanC" target="_blank" rel="noopener noreferrer" className="nav-link twitter-link img-link"> </a></li>
             <li className="nav-item nav-sml"><a href="skype:ryan.chacon103?chat" rel="noopener noreferrer" className="nav-link skype-link img-link"> </a></li>
             <li className="nav-item nav-sml"><a href="https://www.linkedin.com/in/ryan-chacon/" target="_blank" rel="noopener noreferrer" className="nav-link ln-link img-link"> </a></li>
-            <li className="nav-item nav-sml"><a href="https://www.facebook.com/chacon.ryan" target="_blank" rel="noopener noreferrer" className="nav-link fb-link img-link"> </a></li>
             <li className="nav-item nav-sml"><a href="https://github.com/always-sunny" target="_blank" rel="noopener noreferrer" className="nav-link github-link img-link"> </a></li>
             <li className="nav-item nav-sml"><a href="mailto:ryanandrewchacon@gmail.com" className="nav-link gmail-link img-link"> </a></li>
           </ul>

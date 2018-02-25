@@ -6,16 +6,23 @@
 @content;
 } */
 
+
 .mobile-intro {
+  display: flex;
   height: 86px;
 }
 
-@media  only screen and (min-width: 767px) {
+.mobile-intro-text {
+  font-size: 35px;
+  font-family: audiowide, Avenir-black;
+  color: #1D1E21;
+  padding-top: 20px;
+}
+@media  only screen and (min-width: 768px) {
   .mobile-intro {
     display: none;
   }
 }
-
 
 .img {
   height: 50vh;
