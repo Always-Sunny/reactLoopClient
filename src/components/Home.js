@@ -1,16 +1,50 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import Typed from 'typed.js';
 import '../assets/styles/Home.css';
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      onComplete: false,
+    };
+  }
+  componentDidMount() {
+    const options = {
+      strings: ['OOOOOOHHHRYAN'],
+      // strings: ["Ryan Andrew Chacon"],
+      typeSpeed: 40,
+      backSpeed: 50,
+      smartBackspace: true,
+      showCursor: false,
+      onComplete: () => { console.log(this.state), this.setState({ onComplete: true }), console.log(this.state); },
+    };
+
+    // this.el refers to the <span> in the render() method
+    this.typed = new Typed(this.el, options);
+  }
+
+  componentWillUnmount() {
+    // Make sure to destroy Typed instance on unmounting
+    // to prevent memory leaks
+    this.typed.destroy();
+  }
   render() {
+    const isCompleted = this.state.onComplete;
+    let fadeIn = null;
+    if (isCompleted) {
+      fadeIn = <div className="subheader">Built With NodeJS and React</div>;
+      }
     return (
       <div className="container-fluid">
         <div className="row no-gutters">
 
           <div className="col-12 mobile-intro align-items-center justify-content-center">
-            <div class="mobile-intro-text">OHRYAN</div>
-
+            <span
+              className="mobile-intro-text"
+              ref={(el) => { this.el = el; }}
+              />
           </div>
 
           <div className="col-12 col-md-4">
