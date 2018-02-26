@@ -12,7 +12,7 @@ class Home extends Component {
   }
   componentDidMount() {
     const options = {
-      strings: ['OOOOOOHHHRYAN'],
+      strings: ['Welcome'],
       // strings: ["Ryan Andrew Chacon"],
       typeSpeed: 40,
       backSpeed: 50,
