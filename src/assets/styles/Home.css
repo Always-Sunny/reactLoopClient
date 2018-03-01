@@ -5,7 +5,9 @@
 @media  only screen and (min-width: 768) and (max-width: #{1024 - 1px}) {
 @content;
 } */
-
+::-webkit-scrollbar {
+    display: none;
+}
 
 .mobile-intro {
   display: flex;
